@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	ovn "github.com/forward53/ovn_exporter/pkg/ovn_exporter"
+	ovn "github.com/odivlad/ovn_exporter/pkg/ovn_exporter"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/prometheus/common/log"
